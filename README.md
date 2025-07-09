@@ -1,6 +1,9 @@
 Nền tảng: Android
+
 Ngôn ngữ lập trình: Java
+
 Công cụ phát triển: Android Studio
+
 Cơ sở dữ liệu: SQLite
 
 - Mô tả dự án:
