@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/icon_home"
+        android:title="Trang chủ" />
+
+    <item
+        android:id="@+id/home1"
+        android:icon="@drawable/icon_data"
+        android:title="Gói cước" />
+
+    <item
+        android:id="@+id/home2"
+        android:icon="@drawable/icon_contact"
+        android:title="Liên hệ" />
+
+    <item
+        android:id="@+id/home3"
+        android:icon="@drawable/icon_account"
+        android:title="Tài khoản" />
+
+</menu>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_launcher_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Mobifone"
+        tools:targetApi="31">
+        <activity
+            android:name=".doimatkhau"
+            android:exported="false" />
+        <activity
+            android:name=".trangql"
+            android:exported="false" />
+        <activity
+            android:name=".khct_dkgoicuoc"
+            android:exported="false" />
+        <activity
+            android:name=".khitem_dkgoicuoc"
+            android:exported="false" />
+        <activity
+            android:name=".kh_goicuoc"
+            android:exported="false" />
+        <activity
+            android:name=".qlitem_dkgoicuoc"
+            android:exported="false" />
+        <activity
+            android:name=".ql_lsdkgc"
+            android:exported="false" />
+        <activity
+            android:name=".qlitem_lsnaptien"
+            android:exported="false" />
+        <activity
+            android:name=".ql_lsnaptien"
+            android:exported="false" />
+        <activity
+            android:name=".ql_naptienkh"
+            android:exported="false" />
+        <activity
+            android:name=".ql_suakh"
+            android:exported="false" />
+        <activity
+            android:name=".qlitem_khachhang"
+            android:exported="false" />
+        <activity
+            android:name=".item_khachhang"
+            android:exported="false" />
+        <activity
+            android:name=".ql_suagc"
+            android:exported="false" />
+        <activity
+            android:name=".ql_themgc"
+            android:exported="false" />
+        <activity
+            android:name=".qlitem_goicuoc"
+            android:exported="false" />
+        <activity
+            android:name=".ql_khachhang"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".ql_goicuoc"
+            android:exported="false" />
+        <activity
+            android:name=".ctgoicuoc"
+            android:exported="false" />
+        <activity
+            android:name=".item_goicuoc"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".gioithieu"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".dangky"
+            android:exported="true" />
+        <activity
+            android:name=".dangnhap"
+            android:exported="true" />
+    </application>
+
+</manifest>
